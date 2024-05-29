@@ -2,20 +2,39 @@
 
 Welcome to my Online Ticket Sales Database Project where I utilize 7 tables: Category, event, date, listing, sales, venue and users.
 
+Ticket Sales Database Analysis
 
-Tasks Accomplished throughout this project using SQL and Python:
+Overview
 
-Total Tickets Sold by Venue: You retrieved the total number of tickets sold for each venue by joining the venue, event, and listing tables and aggregating the results. This provides insights into the popularity of different venues.
+This project involves analyzing an online ticket sales database using SQL and Python to extract insights and visualize data related to ticket sales, user preferences, and venue popularity.
 
-Top Venues by Ticket Sales: You obtained the top 10 venues with the highest total ticket sales by joining the venue, event, and listing tables, aggregating ticket sales, and ordering the results. This helps identify the most successful venues in terms of ticket sales.
+Tasks
 
-Monthly Ticket Sales: You calculated the total number of tickets sold each month by joining the date and listing tables and grouping the data by month. This analysis provides a breakdown of ticket sales over time, allowing for trend analysis.
+Total Tickets Sold by Venue: Retrieved the total number of tickets sold for each venue to understand venue popularity.
 
-Percentage of Users Liking Categories: You determined the percentage of users who like specific categories (e.g., sports, concerts) by joining the category, event, and users tables and calculating the percentage of users liking each category. This offers insights into user preferences for different event categories.
+Top Venues by Ticket Sales: Identified the top 10 venues with the highest total ticket sales to determine the most successful venues.
 
-Biggest Concerts and Shows Over Time: You visualized the quantity of tickets sold and the price of tickets for concerts and shows over time using Python and Plotly. This visualization helps identify trends and patterns in ticket sales for different types of events.
+Monthly Ticket Sales: Calculated the total number of tickets sold each month to analyze ticket sales trends over time.
 
-Rolling Average of Ticket Sales: You calculated the rolling average of ticket sales over a 7-day period and visualized it alongside the actual ticket sales using Python and Matplotlib. This helps smooth out fluctuations and identify long-term trends in ticket sales.
+Percentage of Users Liking Categories: Determined the percentage of users who like specific event categories (e.g., sports, concerts) to understand user preferences.
 
-Top Venues by Average Ticket Price: You retrieved the top 10 venues with the highest average ticket prices by joining the venue, event, and listing tables, calculating the average ticket price for each venue, and ordering the results. This provides insights into the pricing strategies of different venues.
+Biggest Concerts and Shows Over Time: Visualized the quantity of tickets sold and the price of tickets for concerts and shows over time using Python and Plotly.
 
+Rolling Average of Ticket Sales: Calculated the rolling average of ticket sales over a 7-day period and visualized it alongside the actual ticket sales using Python and Matplotlib.
+
+Top Venues by Average Ticket Price: Retrieved the top 10 venues with the highest average ticket prices to understand venue pricing strategies.
+
+Usage
+
+To replicate the analysis:
+
+Ensure you have access to the online ticket sales database.
+Run the provided SQL queries on the database to extract relevant data.
+Use Python with libraries such as Pandas, Plotly, and Matplotlib to visualize the data and perform additional analysis as needed.
+Dependencies
+
+SQL database (e.g., PostgreSQL, MySQL)
+Python 3.x
+Pandas
+Plotly
+Matplotlib
